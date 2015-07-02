@@ -1,0 +1,6 @@
+@mixin transparent($color, $alpha)
+  $rgba: rgba($color, $alpha)
+  $ie-hex-str: ie-hex-str($rgba)
+  background-color: transparent
+  background-color: $rgba
+  zoom: 1
