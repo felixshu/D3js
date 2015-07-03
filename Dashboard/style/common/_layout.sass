@@ -1,0 +1,26 @@
+@import "../../../components/jeet/scss/jeet"
+
+//@include edit()
+
+header
+  @include center(950px)
+
+
+.container
+  position: relative
+  margin: 0 auto
+  height: 100%
+  width: 1440px
+
+.row
+  @include  center(1410px)
+  clear: both
+  position: relative
+  @include cf
+
+.row-full, .row-form
+  @include cf
+  position: relative
+
+.col-1-2
+  @include col(1/2)

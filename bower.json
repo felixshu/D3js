@@ -1,0 +1,21 @@
+{
+  "name": "D3js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/felixshu/D3js",
+  "authors": [
+    "Felix Grayson <felixgrayson@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5",
+    "jeet": "~6.1.2"
+  }
+}
