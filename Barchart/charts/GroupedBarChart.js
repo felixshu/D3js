@@ -14,6 +14,8 @@ d3.json("data/AgesofPopulaiton.json").get(function (error, data) {
         return key !=="State";
     });
 
+    console.log(ageNames)
+
     var color = d3.scale.ordinal()
         .domain(ageNames)
         .range(["#7BA3A8", "#326C73", "#F35A4A"]);
